@@ -1,2 +1,2 @@
 # Role-Based-Toolbar-Customization-in-Syncfusion-Document-Editor-for-Legal-Workflows
-This repository provides a working example of how to customize the toolbar in Syncfusion Document Editor (a.k.a. Word Processor) based on user roles in a legal workflow. Built with React, it demonstrates how to streamline the user interface and enforce role-based permissions for secure and efficient document editing.
+This repository demonstrates how to implement role-based toolbar customization in the Syncfusion Document Editor (a.k.a. Word Processor) within a React application. It showcases a legal workflow use case where different user roles—such as lawyers, reviewers, and administrators—see tailored toolbar options to enhance both usability and document security.
