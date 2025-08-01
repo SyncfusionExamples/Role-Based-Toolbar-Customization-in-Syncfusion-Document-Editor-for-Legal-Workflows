@@ -1,0 +1,27 @@
+[
+  {
+    "Username": "Lawyer",
+    "Email": "lawyer@legal.com",
+    "Password": "$2a$11$rdcKs.j2aizrPPE6rUiswuJBkcSpr2kz2sNaoOqt8inds90eejdXu"
+  },
+  {
+    "Username": "Paralegal",
+    "Email": "paralegal@legal.com",
+    "Password": "$2a$11$DbvwvdZQ2KvUt9H2SUVYNOhKmwDVeD7vpXLjy/OJbAhUnTDFVm.7O"
+  },
+  {
+    "Username": "Client",
+    "Email": "client@legal.com",
+    "Password": "$2a$11$7dgxLpLqfj9QH3JyrLXgKO7y573oZmLY8saI7SKQ.NqgzDit7LUim"
+  },
+  {
+    "Username": "Reviewer",
+    "Email": "reviewer@legal.com",
+    "Password": "$2a$11$yMCGDfiVP99yNQ6baiqGp./uNCPdLO4Z9O0ADJCCxPzH9po8/qz5a"
+  },
+  {
+    "Username": "Admin",
+    "Email": "admin@legal.com",
+    "Password": "$2a$11$HFtk30dkhfN2lRuTMvKZre4JMpGzrOoLZrKDKXRznKWWxzTcj4hJa"
+  }
+]
