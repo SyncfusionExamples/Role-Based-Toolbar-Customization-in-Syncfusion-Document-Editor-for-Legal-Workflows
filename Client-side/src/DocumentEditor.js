@@ -6,7 +6,7 @@ import TitleBar from "./Titlebar";
 DocumentEditorContainerComponent.Inject(DocumentEditorToolbar);
 
 function DocumentEditor({ user, onLogout }) {
-  const defaultDocument = '';
+  let defaultDocument = '';
   // Configure toolbar items based on user role
   const toolbarConfig = {
     Lawyer: ["New", "Open", "Separator", "Undo", "Redo", "Separator", "Image", "Table", "Hyperlink", "Bookmark", "TableOfContents", "Separator", "Header", "Footer", "PageSetup", "PageNumber", "Break", "InsertFootnote", "InsertEndnote", "Separator", "Find", "Separator", "Comments", "TrackChanges", "LocalClipboard", "RestrictEditing", "Separator", "FormFields", "UpdateFields", "ContentControl", "XML Mapping"],
@@ -43,11 +43,11 @@ function DocumentEditor({ user, onLogout }) {
   // Convert GitHub Raw document to SFDT and load in Editor.
   const convertDocxToSfdt = async () => {
     try {
-      const docxResponse = await fetch('https://raw.githubusercontent.com/syncfusion/blazor-showcase-document-explorer/master/server/wwwroot/Files/Documents/Giant%20Panda.docx');
+      const docxResponse = await fetch('https://raw.githubusercontent.com/SyncfusionExamples/Role-Based-Toolbar-Customization-in-Syncfusion-Document-Editor-for-Legal-Workflows/master/Client-side/public/docs/Legal_Notice.docx');
       const docxBlob = await docxResponse.blob();
 
       const formData = new FormData();
-      formData.append('files', docxBlob, 'GiantPanda.docx');
+      formData.append('files', docxBlob, 'Legal_Notice.docx');
 
       const importResponse = await fetch('https://ej2services.syncfusion.com/production/web-services/api/documenteditor/Import', {
         method: 'POST',
