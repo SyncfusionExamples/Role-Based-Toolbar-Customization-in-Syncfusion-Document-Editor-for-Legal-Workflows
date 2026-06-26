@@ -1,13 +1,14 @@
-# Role-Based Toolbar Customization in Syncfusion Document Editor for Legal Workflows
-This repository demonstrates how to implement role-based toolbar customization in the Syncfusion Document Editor (a.k.a. Word Processor) within a React application. It showcases a legal workflow use case where different user roles—such as lawyers, reviewers, and administrators—see tailored toolbar options to enhance both usability and document security.
+# Role-Based Toolbar Customization in the React DOCX Editor (Document Editor) for Legal Workflows
 
-# Resources 
+This repository demonstrates how to implement role-based toolbar customization in the Syncfusion<sup style="font-size:70%">&reg;</sup> [React DOCX Editor](https://www.syncfusion.com/docx-editor-sdk/react-docx-editor?utm_source=github&utm_medium=listing&utm_campaign=github-github-documenteditor-examples) (Document Editor). It showcases a legal workflow use case where different user roles—such as lawyers, reviewers, and administrators—see tailored toolbar options to enhance both usability and document security.
 
-- **Product page:**   [Syncfusion® React Word Processor](https://www.syncfusion.com/docx-editor-sdk/react-docx-editor) 
+# Resources
 
-- **Documentation:**   [Syncfusion® Word Processor](https://help.syncfusion.com/document-processing/word/word-processor/react/getting-started) 
+- **Product page:**   [Syncfusion® React DOCX Editor](https://www.syncfusion.com/docx-editor-sdk/react-docx-editor?utm_source=github&utm_medium=listing&utm_campaign=github-github-documenteditor-examples) 
 
-- **Online demo:**   [Syncfusion® Word Processor - Demo](https://document.syncfusion.com/demos/docx-editor/react/#/bootstrap5/document-editor/default) 
+- **Documentation:**   [Syncfusion® React DOCX Editor - Documentation](https://help.syncfusion.com/document-processing/word/word-processor/react/overview?utm_source=github&utm_medium=listing&utm_campaign=github-github-documenteditor-examples) 
+
+- **Online demo:**   [Syncfusion® React DOCX Editor - Online demo](https://document.syncfusion.com/demos/docx-editor/react/#/tailwind3/document-editor/default?utm_source=github&utm_medium=listing&utm_campaign=github-github-documenteditor-examples) 
 
 # Support and feedback 
 
