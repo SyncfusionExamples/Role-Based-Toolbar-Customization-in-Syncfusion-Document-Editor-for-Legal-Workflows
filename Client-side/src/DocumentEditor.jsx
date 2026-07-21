@@ -49,7 +49,7 @@ function DocumentEditor({ user, onLogout }) {
       const formData = new FormData();
       formData.append('files', docxBlob, 'Legal_Notice.docx');
 
-      const importResponse = await fetch('https://ej2services.syncfusion.com/production/web-services/api/documenteditor/Import', {
+      const importResponse = await fetch('https://document.syncfusion.com/web-services/docx-editor/api/documenteditor/Import', {
         method: 'POST',
         body: formData,
       });
